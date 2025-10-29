@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZSTD_VS_ACT_REP_IAM_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM APP for Standard vs Actual Report</DESCRIPTION>
+     <RESPONSIBLE>CB9980000014</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>MCU</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZDOMS_PP_STD_ACT_REP</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZSTD_VS_ACT_REP_IAM_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZSTD_VS_ACT_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUI_C_STD_ACT_O2                   0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZSTD_VS_ACT_REP_IAM_EXT</APP_ID>
+      <SRVC_NAME>F89DAB52F7F17884A054599C74105A</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZSTD_VS_ACT_UI5R</UIAD_SRC>
+      <TEXT>Service binding for order details</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

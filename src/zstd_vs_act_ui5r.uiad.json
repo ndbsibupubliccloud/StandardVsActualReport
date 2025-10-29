@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Standard vs Actual report",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Standard vs Actual report"
+  },
+  "ui5AppDetails": {
+    "appId": "com.pp.stdvsact"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_68CEF7D8DAE9BD4A6A74A65A6B6313E7B5681AFB_TM",
+    "semanticObject": "ZSO_STD_VS_ACT",
+    "action": "MANAGE",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_68CEF7D8DAE9BD4A6A74A65A6B6313E7B5681AFB_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Standard vs Actual report"
+      }
+    }
+  ]
+}
